@@ -26,16 +26,16 @@ def scrap_website(url):
     content = soup.findAll("div", {"class":"result__body links_main links_deep"})
     #print(content[0].pretify())
     total = []
-    print(content[0])
+    #print(content[0])
 
     for mink in content:
         js = {}
 
         abcd = mink.h2.find("a", {"class":"result__a"})
-        js["title"] = abcd.text
+        js["title"] = abcd.text.encode('ascii', 'ignore').decode("utf-8")
         js["link"] = abcd["href"]
         des = mink.find("div", {"class": "result__snippet js-result-snippet"})
-        js["description"] = des.text
+        js["description"] = des.text.encode('ascii', 'ignore').decode("utf-8")
         total.append(js)
     # return our list of repositories as the output of our function
 
