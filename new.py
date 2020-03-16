@@ -1,33 +1,28 @@
 import json
 from bs4 import BeautifulSoup
 from selenium import webdriver
-#from urllib.request import urlopen
-import requests
-
-# import the requests library to help use query a website
-
-
-# import the BeautifulSoup library to help us parse the websites
 
 driver = webdriver.Chrome()
 # The function to query a website
 def scrap_website(url):
-    # query the web page
-    # find the repositories container div
     driver.get(url)
-    #html_page = requests.get(url)
-    #uclient = urlopen(url)
-    #html_page = uclient.read()
-    #uclient.close()
-
+    el = driver.find_element_by_id("rld-1")
+    webdriver.ActionChains(driver).move_to_element(el).click(el).perform()
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     driver.quit()
-    #print(soup.prettify())
-    content = soup.findAll("div", {"class":"result__body links_main links_deep"})
-    #print(content[0].pretify())
     total = []
-    #print(content[0])
+    content = soup.findAll("div", {"class": "module__body js-about-item"})
+    if content:
+        js = {}
+        divv = content[0].findAll("div")
+        js["box_title"] = divv[0].text.encode('ascii', 'ignore').decode("utf-8")
+        js["box_description"] = divv[1].text.encode('ascii', 'ignore').decode("utf-8")
+        link = divv[1].find("a", {"class": "module__more-at js-about-item-more-at-inline tx--bold"})
+        js["link_attached"] = link["href"]
+        total.append(js)
 
+
+    content = soup.findAll("div", {"class":"result__body links_main links_deep"})
     for mink in content:
         js = {}
 
@@ -37,8 +32,6 @@ def scrap_website(url):
         des = mink.find("div", {"class": "result__snippet js-result-snippet"})
         js["description"] = des.text.encode('ascii', 'ignore').decode("utf-8")
         total.append(js)
-    # return our list of repositories as the output of our function
-
     json_file = open('out.json', 'w')
     json.dump(total , json_file)
     json_file.close()

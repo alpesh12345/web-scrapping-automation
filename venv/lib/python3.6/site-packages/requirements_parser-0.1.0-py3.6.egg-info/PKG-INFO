@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: requirements-parser
+Version: 0.1.0
+Summary: Parses Pip requirement files
+Home-page: https://github.com/davidfischer/requirements-parser
+Author: David Fischer
+Author-email: djfische@gmail.com
+License: BSD
+Description: Requirements Parser
+        ===================
+        
+        
+        .. image:: https://secure.travis-ci.org/davidfischer/requirements-parser.png?branch=master
+            :target: https://travis-ci.org/davidfischer/requirements-parser
+        .. image:: https://coveralls.io/repos/davidfischer/requirements-parser/badge.png
+            :target: https://coveralls.io/r/davidfischer/requirements-parser
+        
+        This is a small Python module for parsing Pip_ requirement files.
+        
+        .. _Pip: http://www.pip-installer.org/
+        
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install requirements-parser
+        
+        
+        Examples
+        ========
+        
+        Requirements parser can parse a file-like object or a text string.
+        
+        ::
+        
+            >>> import requirements
+            >>> reqfile = """
+            ...     Django>=1.5,<1.6
+            ...     DocParser[PDF]==1.0.0
+            ...     """
+            >>> for req in requirements.parse(reqfile):
+            ...     print(req.name, req.specs, req.extras)
+            ...
+            ('Django', [('>=', '1.5'), ('<', '1.6')], [])
+            ('DocParser', [('==', '1.0.0')], ['pdf'])
+        
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -1,59 +1,66 @@
 import json
 from bs4 import BeautifulSoup
 from selenium import webdriver
-#from urllib.request import urlopen
-import codecs
-import re
 
-# import the requests library to help use query a website
-
-
-# import the BeautifulSoup library to help us parse the websites
-
-def unmangle_utf8(match):
-    escaped = match.group(0)                   # '\\u00e2\\u0082\\u00ac'
-    hexstr = escaped.replace(r'\u00', '')      # 'e282ac'
-    buffer = codecs.decode(hexstr, "hex")      # b'\xe2\x82\xac'
-
-    try:
-        return buffer.decode('utf8')           # '€'
-    except UnicodeDecodeError:
-        print("Could not decode buffer: %s" % buffer)
-
-driver = webdriver.Chrome()
 # The function to query a website
 def scrap_website(url):
-    # query the web page
-    # find the repositories container div
+
+    driver = webdriver.Chrome()
     driver.get(url)
-    #html_page = requests.get(url)
-    #uclient = urlopen(url)
-    #html_page = uclient.read()
-    #uclient.close()
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     driver.quit()
-    #print(soup.prettify())
-    content = soup.findAll("li", {"class":"b_algo"})
-    #print(content[0].pretify())
-    total = []
-    #print(content[0])
 
+    total = []
+
+    content = soup.findAll("div", {"class": "b_subModule"})
+
+    if content:
+
+        js = {}
+
+        js["box_title"] = content[0].h2.text.encode('ascii', 'ignore').decode("utf-8")
+        divv = content[0].findAll("div")
+        js["box_description"] = divv[0].span.span.text.encode('ascii', 'ignore').decode("utf-8")
+        link = content[0].find("div",{"id":"iconset_19"})
+
+        ll=link.findAll("a")
+        js["link_attached"] = ll[0]["href"]
+        total.append(js)
+
+
+    content = soup.findAll("li", {"class":"b_algo"})
     for mink in content:
         js = {}
         abcd = mink.find("h2")
-        #js["title"] = str(abcd.a.text.encode('ascii', 'ignore'))
         js["title"] = abcd.a.text.encode('ascii', 'ignore').decode("utf-8")
         js["link"] = abcd.a["href"]
         abcd = mink.findAll("p")
-        #js["description"] = abcd[0].text
         js["description"]=abcd[0].text.encode('ascii', 'ignore').decode("utf-8")
-        #js["description"] = js["description"].decode("utf-8").encode("windows-1252").decode("utf-8")
-        #js["description"] = des.text.decode('utf8')
-        #js["description"] = re.sub(b'\\\u00([89a-f][0-9a-f])', lambda m: bytes.fromhex(m.group(1).decode()), des.text,flags=re.IGNORECASE)
-        #js["description"] = re.sub(r"(?i)(?:\\u00[0-9a-f]{2})+", unmangle_utf8, des.text)
         total.append(js)
-    # return our list of repositories as the output of our function
+    newpage = soup.findAll("a",{"class":"b_widePag sb_bp"})
+    s1 = "https://www.bing.com"
+    newl = (newpage[0]["href"])
+    newurl = s1 + newl
+    driver = webdriver.Chrome()
+    try:
+        driver.get(newurl)
+        soup2 = BeautifulSoup(driver.page_source, 'html.parser')
+        driver.quit()
+    except TimeoutException as e:
+        print("Page load Timeout Occured. Quiting !!!")
+        driver.quit()
+
+    contents = soup2.findAll("div", {"class": "rc"})
+
+    for mink in contents:
+        js = {}
+        abcd = mink.find("h2")
+        js["title"] = abcd.a.text.encode('ascii', 'ignore').decode("utf-8")
+        js["link"] = abcd.a["href"]
+        abcd = mink.findAll("p")
+        js["description"]=abcd[0].text.encode('ascii', 'ignore').decode("utf-8")
+        total.append(js)
 
 
     json_file = open('out.json', 'w')

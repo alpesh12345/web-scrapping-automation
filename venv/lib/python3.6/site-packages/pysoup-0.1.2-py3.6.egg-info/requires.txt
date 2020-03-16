@@ -1,0 +1,5 @@
+Twisted==15.5.0
+blessings==1.6.0
+PyYAML==3.11
+argcomplete==1.0.0
+requirements-parser==0.1.0
