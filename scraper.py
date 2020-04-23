@@ -21,11 +21,17 @@ def scrap_website(url):
 
         js["box_title"] = content[0].h2.text.encode('ascii', 'ignore').decode("utf-8")
         divv = content[0].findAll("div")
-        js["box_description"] = divv[0].span.span.text.encode('ascii', 'ignore').decode("utf-8")
-        link = content[0].find("div",{"id":"iconset_19"})
-
-        ll=link.findAll("a")
-        js["link_attached"] = ll[0]["href"]
+        js["box_description"] = divv[0].text.encode('ascii', 'ignore').decode("utf-8")
+        link = content[0].find("div",{"class":"infoCardIcons"})
+        if link:
+            ll=link.findAll("a")
+            js["link_attached"] = ll[0]["href"]
+        else:
+            di = content[0].findAll("div",{"class":"b_bgdesc"})
+            js["box_description"] = di[0].text.encode('ascii', 'ignore').decode("utf-8")
+            link = content[0].find("div",{"class":"b_algo"})
+            ll = link.findAll("a")
+            js["link_attached"] = ll[0]["href"]
         total.append(js)
 
 
@@ -35,8 +41,12 @@ def scrap_website(url):
         abcd = mink.find("h2")
         js["title"] = abcd.a.text.encode('ascii', 'ignore').decode("utf-8")
         js["link"] = abcd.a["href"]
-        abcd = mink.findAll("p")
-        js["description"]=abcd[0].text.encode('ascii', 'ignore').decode("utf-8")
+        ab = mink.findAll("p")
+        #print(abcd)
+        if ab:
+            js["description"]=ab[0].text.encode('ascii', 'ignore').decode("utf-8")
+        else:
+            js["description"]=""
         total.append(js)
     newpage = soup.findAll("a",{"class":"b_widePag sb_bp"})
     s1 = "https://www.bing.com"
@@ -62,11 +72,22 @@ def scrap_website(url):
         js["description"]=abcd[0].text.encode('ascii', 'ignore').decode("utf-8")
         total.append(js)
 
-
+    with open('out.json') as f:
+        data = json.load(f)
+        f.close()
+    data.extend(total)
     json_file = open('out.json', 'w')
-    json.dump(total , json_file)
+    json.dump(data, json_file, indent=1)
     json_file.close()
     return total
 
-
-print(json.dumps(scrap_website("https://www.bing.com/search?q=ipv+violence+types&qs=BT&pq=ipv+violence+&sk=BT1&sc=5-13&cvid=4C3E80B63B0F4551951730A5D95E95EF&FORM=QBRE&sp=2&ghc=1"), indent=1))
+with open('search.txt', 'r') as file_in:
+    lines = []
+    for line in file_in:
+        line=line.replace(' ','+')
+        str1="https://www.bing.com/search?q="
+        url = str1 + line
+        print(url)
+        #lines.append(line)
+        print(json.dumps(scrap_website(url), indent=1))
+        #time.sleep(2)
