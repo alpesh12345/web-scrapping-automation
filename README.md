@@ -1,5 +1,5 @@
 #web-scrapping-automation
-for links and description related to search engine query
+for links and description related to search engine query for DuckDuckGo Yahoo Bing Google
 
 just run script with search.txt in same folder and you will get output in
 ./result/"search_query"/search_engine_name.json
