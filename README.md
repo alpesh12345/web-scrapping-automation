@@ -15,7 +15,7 @@ Limitation:: run duck.py with atmost 15 queries at a time
 ##Input::
 search.txt containg all query (one query in one line)
 in same folder where all scripts are saved
-
+only run duck.py google1.py bing.py yahoo.py for correct output
 
 ##Output Format::         (fild_name,description)
 
