@@ -1,0 +1,313 @@
+[
+ {
+  "original search": "ipv4",
+  "type": "box",
+  "box_title": "IPv4",
+  "box_description": "Internet Protocol version 4 is the fourth version of the Internet Protocol. It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 was the first version deployed for production in the ARPANET in 1983.WikipediaMore at Wikipedia",
+  "link_attached": "https://en.wikipedia.org/wiki/IPv4"
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 1,
+  "title": "IPv4 - Wikipedia",
+  "link": "https://en.wikipedia.org/wiki/IPv4",
+  "description": "Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 2,
+  "title": "IPv4 - Packet Structure - Tutorialspoint",
+  "link": "https://www.tutorialspoint.com/ipv4/ipv4_packet_structure.htm",
+  "description": "IPv4 - Packet Structure - Internet Protocol being a layer-3 protocol (OSI) takes data Segments from layer-4 (Transport) and divides it into packets. IP packet encapsulates data unit rece."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 3,
+  "title": "What is IPv4?",
+  "link": "https://nfware.com/blog-what-is-ipv4",
+  "description": "Let's review IPv4 addresses in more detail. IPv4 is the fourth version of IP, it is the basis of the Internet, and establishes the rules for the computer networks functioning on the principle of packet exchange."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 4,
+  "title": "Package ipv4 implements IP-level socket options for the Internet...",
+  "link": "https://godoc.org/golang.org/x/net/ipv4",
+  "description": "The package provides IP-level socket options that allow manipulation of IPv4 facilities. The IPv4 protocol and basic host requirements for IPv4 are defined in RFC 791 and RFC 1122."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 5,
+  "title": "Internet Protocol Version 4 (IPv4) - Definition from Techopedia",
+  "link": "https://www.techopedia.com/definition/5367/internet-protocol-version-4-ipv4",
+  "description": "Internet Protocol Version 4 (IPv4) is the fourth revision of the Internet Protocol and a widely used protocol in data communication over different kinds of networks."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 6,
+  "title": "IPv4 Address Report",
+  "link": "https://ipv4.potaroo.net/",
+  "description": "IPv4 Address are drawn from the Unallocated Address Number Pool, administered by the IANA. These allocations are made to the Regional Internet Registries (RIRs), and the allocation unit is in units of /8s."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 7,
+  "title": "IPv4 addresses, IPv4 Addreess Classes, IPv4 Address Classifications",
+  "link": "https://www.omnisecu.com/tcpip/internet-layer-ip-addresses.php",
+  "description": "IPv4 addresses 32 bit binary addresses (divided into 4 octets) used by the Internet Protocol (OSI Layer 3) for delivering packet to a device located in same or remote network."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 8,
+  "title": "IPv4 Broker | Buy and Sell IP addresses | Online & Private...",
+  "link": "https://ipv4.global/",
+  "description": "IPv4.Global provides buyers and sellers of /16s and up with the flexibility and expert advice to help reach a deal that meets even the most complex of needs."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 9,
+  "title": "What is IPv4 Addressing ? Explained with Examples.",
+  "link": "https://www.orbit-computer-solutions.com/home/ip-addressing/",
+  "description": "An IPv4 address is made up of 32 binary bits, which is divided into a Network portion and Host portion with the help of a Subnet Mask. The 32 binary bits are broken into four octets (1 octet = 8 bits)."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 10,
+  "title": "IPv4 vs IPv6: What's the Difference?",
+  "link": "https://www.guru99.com/difference-ipv4-vs-ipv6.html",
+  "description": "What is IP? An Internet Protocol address is also known as IP address. It is a numerical label which assigned to each device connected to a computer network which uses the IP for communication."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 11,
+  "title": "IPv4 simple looking glass",
+  "link": "http://ip-v4.ru/",
+  "description": "Simple IPv4 Looking Glass."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 12,
+  "title": "IPv4/IPv6 address block lists by country code",
+  "link": "http://ipverse.net/",
+  "description": "IPv4 address block list for AE (United Arab Emirates) (151 IP blocks). IPv4 address block list for AG (Antigua and Barbuda) (18 IP blocks)."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 13,
+  "title": "Internet Protocol Version 4 (IPv4) Parameters",
+  "link": "https://www.iana.org/assignments/ip-parameters",
+  "description": "Registries included below. IP Option Numbers. IPv4 Router Alert Option Values. IP Time to Live Parameter. IP TOS Parameters."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 14,
+  "title": "What is the Difference between IPv4 and IPv6? | Juniper Networks",
+  "link": "https://www.juniper.net/us/en/products-services/what-is/ipv4-vs-ipv6/",
+  "description": "IPv6 (IP version 6), defined in RFC 460, is the most recent generation of the Internet Protocol (IP) defined by the IPv4 requires several add-ons like ICMP and ARP to function. By the mid-1990s, a..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 15,
+  "title": "Understanding IP Addressing and CIDR Charts  RIPE Network...",
+  "link": "https://www.ripe.net/about-us/press-centre/understanding-ip-addressing",
+  "description": "Both IPv4 and IPv6 addresses come from finite pools of numbers. Not every IP address in the IPv4 or IPv6 pool can be assigned to the machines and devices used to access the Internet."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 16,
+  "title": "What is The Difference Between IPv6 and IPv4? - Webopedia.com",
+  "link": "https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html",
+  "description": "Webopedia explains the difference between IPv4 and IPv6, and looks at the topic of migrating to a 128-bit address space. Confused by phrases like Internet Protocol (IP), IPv6, IPv4 and IPng?"
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 17,
+  "title": "IPv4 & IPv6: A Short Guide",
+  "link": "https://mashable.com/2011/02/03/ipv4-ipv6-guide/",
+  "description": "IPv4's successor is IPv6, a system that will not only offer far more numerical addresses, but will The transition from IPv4 to IPv6 is likely to be rough, though. Most people are unfamiliar with IPv4 and..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 18,
+  "title": "IP Subnet Calculator",
+  "link": "https://www.calculator.net/ip-subnet-calculator.html",
+  "description": "This free online IP subnet calculator covers both IPv4 and IPv6 protocols, providing information such as IP address, network address, subnet mask, IP range, and more."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 19,
+  "title": "IPv4 vs. IPv6: What's The Difference?",
+  "link": "https://www.lifewire.com/ipv4-vs-ipv6-4780834",
+  "description": "IPv6 is the most recent IP version that allows trillions of IP addresses to exist on the internet at the same time. Here's more on IPv4 vs IPv6."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 20,
+  "title": "Free IP address tools for IPv4 and IPv6 | IPAddressGuide",
+  "link": "https://www.ipaddressguide.com/",
+  "description": "Free IP address tools allow you to ping an IP address, traceroute an IP address, convert IP address into decimal value or CIDR format, and so on for both IPv4 and IPv6 format."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 21,
+  "title": "IP Address Lookup (IPv4 & IPv6)",
+  "link": "https://ip-lookup.net/index.php",
+  "description": "IPv6 is version 6 of the Internet Protocol; it was initially called IP Next Generation (IPng) when it was picked as the winner in the IETF's IPng selection process. It supports both IPv4 and IPv6 addresses."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 22,
+  "title": "IPv4Info - All data for ipv4 network blocks and autonomous systems",
+  "link": "http://ipv4info.com/",
+  "description": "Key features: ipv4 networks registration data; ipv4 address allocation table; all domains for IP address; all domains in registered network block; Autonomous systems registration data, its originated prefixes..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 23,
+  "title": "What Is My IP Address - See Your Public Address - IPv4 & IPv6",
+  "link": "https://whatismyipaddress.com/",
+  "description": "Find out what your public IPv4 and IPv6 address is revealing about you! My IP address information shows your location; city, region, country, ISP and location on a map."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 24,
+  "title": "Convert IPv4 to IPv6 Address | UltraTools",
+  "link": "https://www.ultratools.com/tools/ipv4toipv6",
+  "description": "The IPv4 to IPv6 tool maps a valid IPv4 address into IPv6 address notation. The IPv4 to IPv6 Conversion tool helps you see how your IPv4 address would be represented in the new IPv6 protocol."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 25,
+  "title": "RFC 6052 - IPv6 Addressing of IPv4/IPv6 Translators",
+  "link": "https://tools.ietf.org/html/6052",
+  "description": "IPv4-embedded IPv6 addresses: IPv6 addresses in which 32 bits. contain an IPv4 address. IPv4-converted IPv6 addresses and IPv4-translatable IPv6 addresses follow the same format..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 26,
+  "title": "What Is My IP? - Shows your real public IP address - IPv4 - IPv6",
+  "link": "https://www.whatismyip.com/",
+  "description": "See your real public IPv4 and IPv6 address. Make sure your VPN or Proxy are masking your IP address details. We provide IP address tools that allow users to perform an Internet Speed Test, IP..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 27,
+  "title": "IPv4 to IPv6 converter - SubnetOnline.com",
+  "link": "https://www.subnetonline.com/pages/subnet-calculators/ipv4-to-ipv6-converter.php",
+  "description": "This calculator slash converter can assist in the conversion of IPv4 type IP numbers to IPv6 notation, supporting IPv6 condensed and alternative format."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 28,
+  "title": "What is My IP | View IPv4 and IPv6 Address",
+  "link": "http://whatismyip.host/",
+  "description": "View your IPv4 and IPv6 address."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 29,
+  "title": "IPv6 test - IPv6/4 connectivity and speed test",
+  "link": "https://www.ipv6-test.com/",
+  "description": "IPv6-test.com is a free service that checks your IPv6 and IPv4 connectivity and speed. Diagnose connection problems, discover which address(es) you are currently using to browse the Internet, and..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 30,
+  "title": "Test your IPv6.",
+  "link": "https://www.test-ipv6.com/",
+  "description": "This is expected to use IPv4. IPv6-only users might still reach this, if their provider has employed a - Attempts to identify what Internet Service Provider you use for IPv4. This may be different from the..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 31,
+  "title": "IPv4 Buying and Leasing Solutions | IPv4 Depot",
+  "link": "https://www.ipv4depot.com/",
+  "description": "IPv4 Depot offers IPv4 buying and leasing solutions including sales & transfer needs. We offer hosted VM solutions with unlimited IP rotations."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 32,
+  "title": "IPv6 Tunnel through an IPv4 Network - Cisco",
+  "link": "https://www.cisco.com/c/en/us/support/docs/ip/ip-version-6/25156-ipv6tunnel.html",
+  "description": "Overlay tunneling encapsulates IPv6 packets in IPv4 packets for delivery across an IPv4 infrastructure. This is similar to how you create a generic routing encapsulation (GRE) tunnel to transport..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 33,
+  "title": "IPv4 vs. IPv6 - What's the Difference? Which Is More Secure?",
+  "link": "https://thebestvpn.com/ipv4-vs-ipv6/",
+  "description": "The specification for IPv6 was finalized in 1998, and the internet is still in the process of switching from the previous version, IPv4. It's been a long process, and we still have a long way to go."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 34,
+  "title": "IPv4 vs IPv6: The Future of Internet Protocols | Beebom",
+  "link": "https://beebom.com/ipv4-vs-ipv6/",
+  "description": "IPv4 to IPv6: The Switch. The depletion of IPv4 had been predicted years ago. The lack of IPv4 addresses is here, but thankfully, we have the IPv6. With 2^32 addresses (I am not going to quote the..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 35,
+  "title": "What is IPv4? - Quora",
+  "link": "https://www.quora.com/What-is-IPv4?share=1",
+  "description": "IPv4 is a connectionless protocol used in packet-switched layer networks, such as Ethernet. It provides the logical connection between network devices by providing identification for each device."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 36,
+  "title": "IPv4 vs IPv6: What's the Difference? | FS Community",
+  "link": "https://community.fs.com/blog/ipv4-vs-ipv6-whats-the-difference.html",
+  "description": "Compared to IPv4, IPv6 increases the IP address from 32 bits to 128 bits to support larger address IPv6 not only enlarges addressing system and provides trillions of addresses to meet the internet..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 37,
+  "title": "IPV4 to IPV6 Converter - See equivalent of any IPV4 Address",
+  "link": "https://dnschecker.org/ipv4-to-ipv6.php",
+  "description": "IPV4 to IPV6 conversion tool gives facility to convert any given IPV4 Address to its equivalent IPV6 What is IPV4 and IPV6? IPV4 Address is an old version of IP Address which was used as an only..."
+ },
+ {
+  "original search": "ipv4",
+  "type": "result",
+  "rank": 38,
+  "title": "IPv6(IPoE/IPv4 over IPv6) | TP-Link Japan",
+  "link": "https://www.tp-link.com/jp/support/faq/2383/",
+  "description": "TP-LinkIPv6(IPoE/IPv4 over IPv6MAP-E)ISP ..."
+ }
+]

@@ -1,14 +1,20 @@
 import json
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
 import time
+import random
 
 
 # The function to query a website
 def scrap_website(url):
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
+    time.sleep(1 + random.randint(1, 4))
     el = driver.find_element_by_id("rld-1")
+    time.sleep(1 + random.randint(1, 4))
     webdriver.ActionChains(driver).move_to_element(el).click(el).perform()
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     driver.quit()
@@ -45,7 +51,7 @@ def scrap_website(url):
         data = json.load(f)
         f.close()
     data.extend(total)
-    json_file = open('out.json', 'w')
+    json_file = open('duckduck.json', 'w')
     json.dump(data , json_file, indent=1)
     json_file.close()
     return total

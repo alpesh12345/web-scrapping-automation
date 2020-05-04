@@ -1,0 +1,318 @@
+[
+ {
+  "original search": "ipv4",
+  "type": "stats",
+  "stats": "1,21,00,000 results"
+ },
+ {
+  "type": "box",
+  "box_title": "IPv4",
+  "box_description": "Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 was the first version deployed for production in the ARPANET in 1983. It still routes most Internet traffic today, despite the ongoing deployment of a successor protocol, IPv6. IPv4 is described in IETF publication RFC 791 (September 1981), replacing an earlier definition (RFC 760, January 1980).",
+  "link_attached": "https://en.wikipedia.org/wiki/IPv4",
+  "page": 1
+ },
+ {
+  "original search": "ipv4",
+  "page": 1,
+  "rank": 1,
+  "type": "people also ask",
+  "query": "What is better IPv4 or IPv6?"
+ },
+ {
+  "original search": "ipv4",
+  "page": 1,
+  "rank": 2,
+  "type": "people also ask",
+  "query": "What is the difference between IPv4 vs. IPv6?"
+ },
+ {
+  "original search": "ipv4",
+  "page": 1,
+  "rank": 3,
+  "type": "people also ask",
+  "query": "What does \"IPv4\" stand for?"
+ },
+ {
+  "original search": "ipv4",
+  "page": 1,
+  "rank": 4,
+  "type": "people also ask",
+  "query": "Is IPv4 the same as IP address?"
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 1,
+  "title": "IPv4 - Wikipedia",
+  "link": "https://en.wikipedia.org/wiki/IPv4",
+  "description": "Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol  (IP). It is one of the core protocols of standards-based internetworking methods in the Internet  and other packet-switched  networks. IPv4 was the first version deployed for production in the ARPANET  in 1983. It still routes most Internet traffic today,  despite the ongoing deployment of a successor protocol, IPv6. IPv4 is described in IETF  publication RFC 791  (September 1981), replacing an earlier definition (RFC 760, January 1980). "
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 2,
+  "title": "IPv4 Tutorial - Tutorialspoint",
+  "link": "https://www.tutorialspoint.com/ipv4/index.htm",
+  "description": "Internet Protocol version 4 (IPv4) is the fourth version in the development of the Internet Protocol (IP) and the first version of the protocol to be widely deployed. IPv4 is described in IETF publication RFC 791 (September 1981), replacing an earlier definition (RFC 760, January 1980). This tutorial will help you in understanding IPv4 and its associated terminologies along with appropriate references and examples. "
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 3,
+  "title": "What is Internet Protocol Version 4 (IPv4)? - Definition from ",
+  "link": "https://www.techopedia.com/definition/5367/internet-protocol-version-4-ipv4",
+  "description": "12-12-2017 IPv4 is a connectionless protocol used in packet-switched layer networks, such as Ethernet. It provides the logical connection between network devices by providing identification for each device. There are many ways to configure IPv4 with all kinds of devices  including manual and automatic configurations  depending on the network type."
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 4,
+  "title": "IPv4 - Overview - Tutorialspoint",
+  "link": "https://www.tutorialspoint.com/ipv4/ipv4_overview.htm",
+  "description": "IPv4 - Overview. Advertisements. Previous Page. Next Page . This era is said to be the era of computers. Computers have significantly changed the way we live. A computing device when connected to other computing device(s) enables us to share data and information at lightning fast speed. What is Network? A Network in the world of computers is said to be a collection of interconnected hosts, via some "
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 5,
+  "title": "IPv4 vs IPv6 | Know The 9 Most Useful Differences",
+  "link": "https://www.educba.com/ipv4-vs-ipv6/",
+  "description": "IPv4 has large community support and extensive documentation libraries. IPv6 also has one of the largest community supports. Routing Performance: In the case of IPv4, there is a presence of routing protocol (RIP) which is supported by the routed daemon. Thus, from the routing performance perspective, IPv4 is more preferred than the IPv6. In the case of IPv6, there is no specific routing protocol support "
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 6,
+  "title": "IPv4 vs IPv6: What is the difference between IPv4 and IPv6",
+  "link": "https://techlog360.com/ipv4-vs-ipv6/",
+  "description": ""
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 7,
+  "title": "Introduction and IPv4 Datagram Header - GeeksforGeeks",
+  "link": "https://www.geeksforgeeks.org/introduction-and-ipv4-datagram-header/",
+  "description": "03-07-2015 Introduction and IPv4 Datagram Header. The network layer is the third layer (from bottom) in the OSI Model. The network layer is concerned with the delivery of a packet across multiple networks. The network layer is considered the backbone of the OSI Model. It selects and manages the best logical path for data transfer between nodes. This layer contains hardware devices such as routers, bridges, "
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 8,
+  "title": "What is The Difference Between IPv6 and IPv4? - Webopedia.com",
+  "link": "https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html",
+  "description": ""
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 9,
+  "title": "What Is an IPv4 Address? | Techwalla",
+  "link": "https://www.techwalla.com/articles/what-is-an-ipv4-address",
+  "description": ""
+ },
+ {
+  "type": "result",
+  "page": 1,
+  "original search": "ipv4",
+  "rank": 10,
+  "title": "What Is My IP Address - See Your Public Address - IPv4 & IPv6",
+  "link": "https://whatismyipaddress.com/",
+  "description": "Find out what your public IPv4 and IPv6 address is revealing about you! My IP address information shows your location; city, region, country, ISP and location on a map. Many proxy servers, VPNs, and Tor exit nodes give themselves away."
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "ipv4 vs ipv6",
+  "rank": 1
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "what is ipv4 address",
+  "rank": 2
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "what is ipv4 and ipv6",
+  "rank": 3
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "ipv6 vs ipv4 comparison",
+  "rank": 4
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "what is my ip address",
+  "rank": 5
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "what is my ip",
+  "rank": 6
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "ipv6 test",
+  "rank": 7
+ },
+ {
+  "page": 1,
+  "original search": "ipv4",
+  "related-search": "what is my ipv4",
+  "rank": 8
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 1,
+  "title": "IPv4 vs IPv6: What is the difference between IPv4 and IPv6",
+  "link": "https://techlog360.com/ipv4-vs-ipv6/",
+  "description": "01-02-2020 IPv4 is a protocol for use on packet-switched Link Layer networks (e.g. Ethernet). It is one of the core protocols of standards-based inter-networking methods on the Internet and was the first version deployed for production in the ARPANET in 1983."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 2,
+  "title": "IPv4 & IPv6: A Short Guide",
+  "link": "https://mashable.com/2011/02/03/ipv4-ipv6-guide/",
+  "description": "03-02-2011 IPv4 & IPv6 Q&A. Q: What is IPv4? A: IPv4 stands for Internet Protocol version 4. It is the underlying technology that makes it possible for us to connect our devices to the web. Whenever a device ..."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 3,
+  "title": "IPv4 vs. IPv6: Whats the Difference? | Avast",
+  "link": "https://www.avast.com/c-ipv4-vs-ipv6-addresses",
+  "description": "IPv4 has been significantly updated over the years, so the difference between IPv4 and IPv6 security is not extraordinary. The same IPSec in IPv6 is now available for IPv4; its up to network providers and end users alike to embrace and use it  so a properly configured IPv4 network can be as secure as an IPv6 network."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 4,
+  "title": "Differences between IPv4 and IPv6 - GeeksforGeeks",
+  "link": "https://www.geeksforgeeks.org/differences-between-ipv4-and-ipv6/",
+  "description": "IPv4 and IPv6 are internet protocol version 4 and internet protocol version 6, IP version 6 is the new version of Internet Protocol, which is way better than IP version 4 in terms of complexity and efficiency. Difference Between IPv4 and IPv6: IPv4 has 32-bit address length. IPv6 has 128-bit address length. It Supports Manual and DHCP address ..."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 5,
+  "title": "What Is an IPv4 Address? | Techwalla",
+  "link": "https://www.techwalla.com/articles/what-is-an-ipv4-address",
+  "description": "IPv4 is a type of Internet networking protocol that functions as an address for devices connected to a network. Once connected to a network, an IPv4 address is assigned by the host (usually an Internet service provider, or ISP) to the client (the user's device, be it computer, cell phone or gaming system) as a way of identifying where queried traffic should be routed to."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 6,
+  "title": "Difference Between IPv4 and IPv6 | Explained",
+  "link": "https://fossbytes.com/difference-between-ipv4-and-ipv6-explained/",
+  "description": "19-10-2016 IPv4. The IPv4 or the Internet Protocol version 4 (RFC 791) was originally used in the ARPANET. Although, its the fourth generation of the Internet Protocol but it is the first major version of ..."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 7,
+  "title": "IPv4 vs. IPv6 - What's the Difference? Which Is More Secure?",
+  "link": "https://thebestvpn.com/ipv4-vs-ipv6/",
+  "description": "11-12-2017 The specification for IPv6 was finalized in 1998, and the internet is still in the process of switching from the previous version, IPv4. Its been a long process, and we still have a long way to go. But why should you be concerned about IPv4 vs. IPv6? Does it have any effect on you at all? It certainly doesand were going to take a look ..."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 8,
+  "title": "Difference Between IPv4 and IPv6 (with Comparison Chart) - ",
+  "link": "https://techdifferences.com/difference-between-ipv4-and-ipv6.html",
+  "description": "04-08-2017 IPv4 and IPv6 are the versions of internet protocol where IPv6 is the enhanced version of IPv4. There are various differences between IPv4 and IPv6 protocol including their features, but the crucial one is the number of addresses (Address space) it generates."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 9,
+  "title": "IPv6 test - IPv6/4 connectivity and speed test",
+  "link": "https://ipv6-test.com/",
+  "description": "IPv6-test.com is a free service that checks your IPv6 and IPv4 connectivity and speed. Diagnose connection problems, discover which address(es) you are currently using to browse the Internet, and what is your browser's protocol of choice when both v6 and v4 are available."
+ },
+ {
+  "page": 2,
+  "type": "result",
+  "original search": "ipv4",
+  "rank": 10,
+  "title": "What Is My IP Address - See Your Public Address - IPv4 & IPv6",
+  "link": "https://whatismyipaddress.com/",
+  "description": "Find out what your public IPv4 and IPv6 address is revealing about you! My IP address information shows your location; city, region, country, ISP and location on a map. Many proxy servers, VPNs, and Tor exit nodes give themselves away."
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "ipv4 vs ipv6",
+  "rank": 1
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "what is ipv4 address",
+  "rank": 2
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "what is ipv4 and ipv6",
+  "rank": 3
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "ipv6 vs ipv4 comparison",
+  "rank": 4
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "what is my ip address",
+  "rank": 5
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "what is my ip",
+  "rank": 6
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "ipv6 test",
+  "rank": 7
+ },
+ {
+  "page": 2,
+  "original search": "ipv4",
+  "related-search": "what is my ipv4",
+  "rank": 8
+ }
+]
