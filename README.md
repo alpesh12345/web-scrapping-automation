@@ -1,23 +1,23 @@
-#web-scrapping-automation
-for links and description related to search engine query for DuckDuckGo Yahoo Bing Google
+# web-scrapping-automation
+For links and description related to search engine query for DuckDuckGo Yahoo Bing Google
 
 just run script with search.txt in same folder and you will get output in
 ./result/"search_query"/search_engine_name.json
 
 folder name is query joind by "_"
 
-##Dependancies::
+## Dependancies::
 bs4
 selenium
 python version 3.2+
 Limitation:: run duck.py with atmost 15 queries at a time
 
-##Input::
+## Input::
 search.txt containg all query (one query in one line)
 in same folder where all scripts are saved
 only run duck.py google1.py bing.py yahoo.py for required output
 
-##Output Format::         (fild_name,description)
+## Output Format::         (fild_name,description)
 
 original search: input search query
 type: type of data like result, stats,etc (stats shows no. of results found,etc)
@@ -38,9 +38,10 @@ box_description/topbox_description: description associated with left box/topbox
 
 
 
-##Sample Output format::
+## Sample Output format::
 
-1)google
+1) google
+```
 {
   "original search": "ipv4",
   "type": "stats",
@@ -84,10 +85,10 @@ box_description/topbox_description: description associated with left box/topbox
   "related-search": "what....",
   "rank": 1
  }
+ ```
  
- 
- 2)bing
- 
+ 2) bing
+ ```
  {
   "original search": "ipv4",
   "type": "stats",
@@ -122,12 +123,11 @@ box_description/topbox_description: description associated with left box/topbox
   "related-search": "what is my ipv4",
   "rank": 8
  }
+ ```
  
  
- 
- 3)
- duckduckgo
- 
+ 3) duckduckgo
+ ```
  {
   "original search": "ipv4",
   "type": "box",
@@ -143,10 +143,10 @@ box_description/topbox_description: description associated with left box/topbox
   "link": "https://en.wikipedia.org/wiki/IPv4",
   "description": "Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched..."
  },
+ ```
  
- 
- 4)yahoo
- 
+ 4) yahoo
+ ```
  {
   "original search": "ipv4",
   "type": "stats",
@@ -190,3 +190,4 @@ box_description/topbox_description: description associated with left box/topbox
   "related-search": "what....",
   "rank": 1
  }
+```
